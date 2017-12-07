@@ -21,12 +21,12 @@ In order to assist mentors, we ask for your help assembling learning resources a
 ### intermediate
 ### advanced
 
-#3 Javascript
+## Javascript
 ### beginner
 ### intermediate
 ### advanced
 
-#3 SQL
+## SQL
 ### beginner
 ### intermediate
 ### advanced
