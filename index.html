@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <title>Women Who Code DC Mentorship Directory</title>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
+  <h1>Welcome to Women Who Code DC Mentorship Directory</h1>
+  <p>This directory is intended to help Women Who Code members get connected with mentors. Whether you're looking for career advice, help with tech interviews, or to improve your knowledge of a particular language or tool, a mentor can help!</p>
+
+  <p>Prospective mentors: if you want to be in this directory, head over to our <a href="https://github.com/womenwhocodedc/mentorship">github repository</a> and submit a pull request.</p>
+
+
+  <h2>DC Mentors</h2>
+  <!-- This table is being populated using DataTables library + data in script.js -->
   <table id="example" class="display" cellspacing="0" width="100%">
     <thead>
       <tr>
@@ -16,6 +25,7 @@
           <th>Mentorship Topics</th>
           <th>Accepting Mentees?</th>
           <th>Preferred Location</th>
+          <th>Contact</th>
       </tr>
     </thead>
     <tfoot>
@@ -26,9 +36,12 @@
         <th>Mentorship Topics</th>
         <th>Accepting Mentees?</th>
         <th>Preferred Location</th>
+        <th>Contact</th>
       </tr>
     </tfoot>
   </table>
+
+  <!-- jQuery is a dependancy of dataTables -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
   <script src="script.js"></script>
