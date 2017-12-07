@@ -16,6 +16,8 @@ Since the mentors are providing a free service, it is the responsibility of the 
 ## Aggregating Resources
 In order to assist mentors, we ask for your help assembling learning resources and exercises for topics listed below (feel free to add more topics as well). The exercises and resources should be separated into beginner, intermediate, and advanced categories.
 
+Readme is written in markdown, here's a handy syntax cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ## Python
 ### beginner
 ### intermediate
